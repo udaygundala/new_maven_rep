@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="8" failures="0" hostname="LAPTOP-1UBMJ23I" name="com.ibatis.jpetstore.presentation.CatalogBeanTest" skipped="0" tests="8" time="0.169" timestamp="2016-07-09T07:10:47">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="lib" value="lib" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_92\jre\classes" />
+    <property name="ant.file.type.web" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="c:\Users\saiteja reddy\Downloads\apache-ant-1.9.4\bin\.." />
+    <property name="java.runtime.version" value="1.8.0_92-b14" />
+    <property name="weblib" value="webapp/WEB-INF/lib/" />
+    <property name="user.name" value="saiteja reddy" />
+    <property name="reports" value="reports" />
+    <property name="instrumentedclasses" value="work/instrumentedclasses/" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin" />
+    <property name="webclasses" value="webapp/WEB-INF/classes/" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="ant.project.name" value="web" />
+    <property name="junitreports" value="reports/junit/" />
+    <property name="java.version" value="1.8.0_92" />
+    <property name="classes" value="work/classes/" />
+    <property name="user.timezone" value="" />
+    <property name="webapp" value="webapp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="web" value="web" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="src" />
+    <property name="user.country" value="IN" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_92\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="F:\mike-ibatis-jpetstore-ant-master\JPetStore\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.92-b14" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\saiteja reddy\Downloads\apache-ant-1.9.4\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp437" />
+    <property name="testclasses" value="work/testclasses/" />
+    <property name="user.script" value="" />
+    <property name="work" value="work" />
+    <property name="user.home" value="C:\Users\saiteja reddy" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test" value="test" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_92\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Brackets\command;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jre7\bin;C:\Program Files\Java\jdk1.8.0_92\bin;C:\Users\saiteja reddy\AppData\Roaming\npm;C:\Program Files (x86)\Microsoft VS Code\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.ibatis.jpetstore.presentation.CatalogBeanTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\mike-ibatis-jpetstore-ant-master\JPetStore\reports\junit\TEST-com.ibatis.jpetstore.presentation.CatalogBeanTest.xml crashfile=F:\mike-ibatis-jpetstore-ant-master\JPetStore\junitvmwatcher960149557788291523.properties propsfile=F:\mike-ibatis-jpetstore-ant-master\JPetStore\junit3055470929820373352.properties" />
+    <property name="java.class.path" value="F:\mike-ibatis-jpetstore-ant-master\JPetStore\work\instrumentedclasses;F:\mike-ibatis-jpetstore-ant-master\JPetStore\work\classes;F:\mike-ibatis-jpetstore-ant-master\JPetStore\work\testclasses;F:\mike-ibatis-jpetstore-ant-master\JPetStore\src;F:\mike-ibatis-jpetstore-ant-master\JPetStore\test;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\antlr.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\beanaction.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\commons-beanutils.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\commons-digester.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\commons-fileupload.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\commons-logging.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\commons-validator.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\hsqldb.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\ibatis-common-2.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\ibatis-dao-2.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\ibatis-sqlmap-2.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\jakarta-oro.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\lib\struts.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\devlib\cglib-nodep-2.1_3.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\devlib\emma.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\devlib\emma_ant.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\devlib\jmock-1.0.1.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\devlib\jmock-cglib-1.0.1.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\devlib\junit-4.4.jar;F:\mike-ibatis-jpetstore-ant-master\JPetStore\devlib\servlet.jar;C:\Users\saiteja reddy\Downloads\apache-ant-1.9.4\lib\ant-launcher.jar;C:\Users\saiteja reddy\Downloads\apache-ant-1.9.4\lib\ant.jar;C:\Users\saiteja reddy\Downloads\apache-ant-1.9.4\lib\ant-junit.jar;C:\Users\saiteja reddy\Downloads\apache-ant-1.9.4\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="devlib" value="devlib" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="warfile" value="wars/jpetstore.war" />
+    <property name="ant.file.web" value="F:\mike-ibatis-jpetstore-ant-master\JPetStore\build.xml" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\SAITEJ~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_92\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="F:\mike-ibatis-jpetstore-ant-master\JPetStore" />
+    <property name="coveragereports" value="reports/coverage/" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="F:\mike-ibatis-jpetstore-ant-master\JPetStore" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\saiteja reddy\Downloads\apache-ant-1.9.4\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp437" />
+    <property name="wars" value="wars" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="all" />
+  </properties>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldFailToSearchProducts" time="0.094">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldFailToSearchProducts(CatalogBeanTest.java:61)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldClearCatalogBean" time="0.003">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldClearCatalogBean(CatalogBeanTest.java:119)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldSwitchItemPageBackAndForth" time="0.001">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldSwitchItemPageBackAndForth(CatalogBeanTest.java:100)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldPopulateCategoryByIdForViewing" time="0.001">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldPopulateCategoryByIdForViewing(CatalogBeanTest.java:15)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldPopulateProductByIdForViewing" time="0.0">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldPopulateProductByIdForViewing(CatalogBeanTest.java:32)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldPopulateItemByIdForViewing" time="0.0">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldPopulateItemByIdForViewing(CatalogBeanTest.java:49)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldSearchProductsByKeyword" time="0.0">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldSearchProductsByKeyword(CatalogBeanTest.java:69)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <testcase classname="com.ibatis.jpetstore.presentation.CatalogBeanTest" name="testShouldSwitchProductPageBackAndForth" time="0.0">
+    <error message="Expecting a stackmap frame at branch target 11&#xa;Exception Details:&#xa;  Location:&#xa;    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull&#xa;  Reason:&#xa;    Expected stackmap frame at this location.&#xa;  Bytecode:&#xa;    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7&#xa;    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0&#xa;    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000&#xa;    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008&#xa;    0x0000040: b500 092c 0304 54b1                    &#xa;" type="java.lang.VerifyError">java.lang.VerifyError: Expecting a stackmap frame at branch target 11
+Exception Details:
+  Location:
+    com/ibatis/jpetstore/service/CatalogService.&lt;init&gt;()V @4: ifnonnull
+  Reason:
+    Expected stackmap frame at this location.
+  Bytecode:
+    0x0000000: b200 5859 c700 0757 b800 6203 324d 2ab7
+    0x0000010: 0001 b800 024c 2a2b 1203 b900 0402 00c0
+    0x0000020: 0003 b500 052a 2b12 06b9 0004 0200 c000
+    0x0000030: 06b5 0007 2a2b 1208 b900 0402 00c0 0008
+    0x0000040: b500 092c 0304 54b1                    
+
+	at java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671)
+	at java.lang.Class.getDeclaredConstructors(Class.java:2020)
+	at net.sf.cglib.proxy.Enhancer.generateClass(Enhancer.java:447)
+	at net.sf.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at net.sf.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:216)
+	at net.sf.cglib.proxy.Enhancer.createHelper(Enhancer.java:377)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:285)
+	at net.sf.cglib.proxy.Enhancer.create(Enhancer.java:660)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.CGLIBCoreMock.&lt;init&gt;(Unknown Source)
+	at org.jmock.cglib.MockObjectTestCase.newCoreMock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at org.jmock.MockObjectTestCase.mock(Unknown Source)
+	at com.ibatis.jpetstore.presentation.CatalogBeanTest.testShouldSwitchProductPageBackAndForth(CatalogBeanTest.java:81)
+	at org.jmock.core.VerifyingTestCase.runBare(Unknown Source)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
